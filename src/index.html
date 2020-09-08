@@ -3,9 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Trivia Flash Cards</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h6 class="display-4">Trivia!</h6>
+      <hr>
+      <p class="lead">Try your hand at these general knowledge questions below!</p>
+      <p class="score">Score: <span id="score"></span> out of <span id=questionsAnswered></span></p>
+    </div>
+    <div class="button">
+      <button class="playButton btn btn-info d-block mx-auto">PLAY!</button>
+    </div>
+    <div class="trivia">
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body card1">
+              <h5 class="card-title"><span id="category1"></span></h5>
+              <p class="card-text card-question-1"><span id="question1"></span></p>
+              <p class="card-text answer card-answer-1">The answer is: <span id="answer1"></span></p>
+              <button class="btn btn-info btn-sm card-1-button-true">True</button>
+              <button class="btn btn-info btn-sm card-1-button-false">False</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><span id="category2"></span></h5>
+              <p class="card-text card-question-2"><span id="question2"></span></p>
+              <p class="card-text answer card-answer-2"><span id="answer2"></span></p>
+              <button class="btn btn-info btn-sm card-2-button-true">True</button>
+              <button class="btn btn-info btn-sm card-2-button-false">False</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><span id="category3"></span></h5>
+              <p class="card-text card-question-3"><span id="question3"></span></p>
+              <p class="card-text answer card-answer-3"><span id="answer3"></span></p>
+              <button class="btn btn-info btn-sm card-3-button-true">True</button>
+              <button class="btn btn-info btn-sm card-3-button-false">False</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><span id="category4"></span></h5>
+              <p class="card-text card-question-4"><span id="question4"></span></p>
+              <p class="card-text  answer card-answer-4"><span id="answer4"></span></p>
+              <button class="btn btn-info btn-sm card-4-button-true">True</button>
+              <button class="btn btn-info btn-sm card-4-button-false">False</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><span id="category5"></span></h5>
+              <p class="card-text card-question-5"><span id="question5"></span></p>
+              <p class="card-text answer card-answer-5"><span id="answer5"></span></p>
+              <button class="btn btn-info btn-sm card-5-button-true">True</button>
+              <button class="btn btn-info btn-sm card-5-button-false">False</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><span id="category6"></span></h5>
+              <p class="card-text card-question-6"><span id="question6"></span></p>
+              <p class="card-text answer card-answer-6"><span id="answer6"></span></p>
+              <button class="btn btn-info btn-sm card-6-button-true">True</button>
+              <button class="btn btn-info btn-sm card-6-button-false">False</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><span id="category7"></span></h5>
+              <p class="card-text card-question-7"><span id="question7"></span></p>
+              <p class="card-text answer card-answer-7"><span id="answer7"></span></p>
+              <button class="btn btn-info btn-sm card-7-button-true">True</button>
+              <button class="btn btn-info btn-sm card-7-button-false">False</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><span id="category8"></span></h5>
+              <p class="card-text card-question-8"><span id="question8"></span></p>
+              <p class="card-text answer card-answer-8"><span id="answer8"></span></p>
+              <button class="btn btn-info btn-sm card-8-button-true">True</button>
+              <button class="btn btn-info btn-sm card-8-button-false">False</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><span id="category9"></span></h5>
+              <p class="card-text card-question-9"><span id="question9"></span></p>
+              <p class="card-text answer card-answer-9"><span id="answer9"></span></p>
+              <button class="btn btn-info btn-sm card-9-button-true">True</button>
+              <button class="btn btn-info btn-sm card-9-button-false">False</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
