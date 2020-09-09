@@ -21,7 +21,7 @@ To Extend This Project:
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+* Need to figure out how to decode Unicode sybmols when displaying answer responses to trivia cards.
 
 ## Technologies Used
 
